@@ -64,7 +64,7 @@ namespace EFExampleBasic
                             student.Address.City,
                             student.Address.FirstLine,
                             student.Address.SecondLine,
-                            student.DateOfBirth ?? "somewhen");
+                            student.DateOfBirth);
                     }
                 }
             }

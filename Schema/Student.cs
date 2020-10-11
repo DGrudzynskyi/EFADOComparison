@@ -14,11 +14,13 @@ namespace EFExampleBasic.Schema
 
         public string LastName { get; set; }
 
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public Address Address { get; set; }
         public int StudyClassId { get; set; }
 
         public StudyClass StudyClass { get; set; }
+
+        public bool IsLiveInDormitory { get; set; }
     }
 }
