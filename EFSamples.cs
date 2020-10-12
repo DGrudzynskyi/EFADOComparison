@@ -32,8 +32,8 @@ namespace EFExampleBasic
                 
                 var newStudent = new Student()
                 {
-                    FirstName= "Korch",
-                    LastName= "Anufriy",
+                    FirstName= "Anufriy",
+                    LastName= "Korch",
                     Address = new Address() { 
                         City="Kiev",
                         FirstLine="Troeshina",

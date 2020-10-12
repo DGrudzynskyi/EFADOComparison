@@ -3,11 +3,12 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class _2 : DbMigration
+    public partial class _3 : DbMigration
     {
         public override void Up()
         {
             AddColumn("dbo.Students", "IsLiveInDormitory", c => c.Boolean(nullable: false));
+
             AlterColumn("dbo.Students", "DateOfBirth", c => c.DateTime(nullable: true));
 
             Sql("update dbo.Students set DateOfBirth = '12/31/2008 09:01:01'");
