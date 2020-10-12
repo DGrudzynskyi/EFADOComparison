@@ -9,7 +9,7 @@ namespace EFExampleBasic
 
         static void Main(string[] args)
         {
-            EFSamples.AddStudent();
+            EFSamples.ShowAllClassesAndStudents();
         }
     }
 }
