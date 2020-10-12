@@ -6,6 +6,15 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EFExampleBasic.Schema
 {
+    public enum Gender {
+        Agender,
+        Androgyne,
+        CisFemale,
+        CisMale,
+        MaleToFemale,
+        FemaleToMale,
+    }
+
     public class Student
     {
         public int Id { get; set; }
@@ -20,5 +29,7 @@ namespace EFExampleBasic.Schema
         public int StudyClassId { get; set; }
 
         public StudyClass StudyClass { get; set; }
+
+        public Gender Gender { get; set; }
     }
 }
